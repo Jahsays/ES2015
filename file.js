@@ -8,6 +8,14 @@
 //     }
 // }
 
+var person = {
+    fullName: "Harry Potter",
+    sayHi: function(){
+        setTimeout(() => {
+            console.log(`Your name is ${this.fullName}`)
+        },1000)
+    }
+}
 
 // 2. var name = "Josie"
 // console.log("When " + name + " comes home, so good")
@@ -26,6 +34,8 @@ DO_NOT_CHANGE = 50;
 //    var temp = arr[0]
 //    arr[0] = arr[1]
 //    arr[1] = temp
+
+    
 
 // 5.  function double(arr){
 //       return arr.map(function(val){
@@ -54,6 +64,10 @@ DO_NOT_CHANGE = 50;
 //     }
 //     return a+b
 //   }
+
+function add (a=10, b=10){
+    return a+b;
+}
 
 // Research the following functions - what do they do?
 // Array.from
