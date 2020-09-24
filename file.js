@@ -35,13 +35,18 @@ DO_NOT_CHANGE = 50;
 //    arr[0] = arr[1]
 //    arr[1] = temp
 
-    
+  var [a,b] = [1,2];
+  [a,b] = [b,a];  
 
 // 5.  function double(arr){
 //       return arr.map(function(val){
 //         return val*2
 //       });
 //      }
+
+   function double(arr){
+       return arr.map((val) => val*2);
+   }
 
 // 6. var obj = {
 //      numbers: {
@@ -52,6 +57,15 @@ DO_NOT_CHANGE = 50;
 
 // var a = obj.numbers.a;
 // var b = obj.numbers.b;
+
+  var obj = {
+      numbers: {
+          a:1,
+          b:2
+      }
+  }
+
+  var {a,b} = obj.numbers;
 
 // 7. function add(a,b){
 //     if(a === 0) a = 0
