@@ -91,7 +91,7 @@ Array.from() creates a new array from an array-like or iterable object
   Object.assign() copies all enumerable own properties from one or more source objects to a target object. it retyrns the target object
 
 // Array.includes
-  Array.includes() determines whether an array contains a certain Element. it returns true of the element is present or false if it is not present. an optional parameter (fronIndex) can be included to indicate what index the search should begin.
+  Array.includes() determines whether an array contains a certain Element. it returns true of the element is present or false if it is not present. an optional parameter (fromIndex) can be included to indicate what index the search should begin.
 
 // String.startsWith
 String.startsWith() determines whether a string begins witha certain set of characters. it returns true if the string begins with those characters, or false if not.
